@@ -1,0 +1,126 @@
+body {
+    background: linear-gradient(135deg, #2563eb 0%, #1e3a8a 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 350px;
+    margin: 24px auto;
+    background: linear-gradient(135deg, #e0f7fa 0%, #a7f3d0 60%, #bbf7d0 100%);
+    border-radius: 14px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 24px 20px 20px 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #2d3748;
+    letter-spacing: 1px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.primary-btn {
+    background: #2563eb;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+}
+
+.primary-btn:hover {
+    background: #1e40af;
+}
+
+.secondary-btn {
+    background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.secondary-btn:hover {
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+}
+
+.notes {
+    margin-bottom: 18px;
+}
+
+.notes h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.1em;
+    color: #475569;
+}
+
+#notes {
+    width: 100%;
+    min-height: 80px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 6px;
+    resize: vertical;
+    background: #f8fafc;
+    color: #334155;
+}
+
+#results {
+    margin-top: 18px;
+    font-size: 0.98em;
+    color: #334155;
+    min-height: 40px;
+    font-weight: bold;
+    background: #f1f5f9;
+    border: 2px solid #2563eb;
+    border-radius: 8px;
+    padding: 14px 12px;
+    box-sizing: border-box;
+    word-break: break-word;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body.dark-mode {
+    background: linear-gradient(135deg, #181a1b 0%, #23272f 100%);
+    color: #e5e7eb;
+}
+
+body.dark-mode #results {
+    color: #e5e7eb;
+    background: #23272f;
+    border: 2px solid #3b82f6;
+    font-weight: bold;
+}
