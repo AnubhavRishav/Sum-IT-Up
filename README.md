@@ -14,3 +14,8 @@ This project demonstrates the practical application of AI and browser technologi
 
 
 ![Screenshot](https://github.com/AnubhavRishav/Sum-IT-Up/blob/master/Screenshot%202025-09-01%20151628.png)
+
+
+![Screenshot](https://github.com/AnubhavRishav/Sum-IT-Up/blob/master/Screenshot%202025-09-01%20193116.png
+)
+
