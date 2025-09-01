@@ -11,4 +11,4 @@ User-Friendly Interface: Lightweight extension with a simple popup interface and
 Productivity Boost: Saves time for students, researchers, and professionals by eliminating the need to read lengthy content in full.
 
 This project demonstrates the practical application of AI and browser technologies to improve information consumption efficiency, bridging the gap between raw web data and human attention.
-![Screenshot](https://raw.githubusercontent.com/username/repo-name/main/images/screenshot.png)
+![Screenshot](https://github.com/AnubhavRishav/Sum-IT-Up/blob/master/Screenshot%202025-09-01%20151628.png)
